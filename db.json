@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Bông",
+      "age": 28,
+      "Address": "Viet nam",
+      "username": "Bongxinhdep",
+      "password": "Bong123",
+      "avatar": "https://images2.thanhnien.vn/528068263637045248/2024/11/12/4346688273993028297050973153543902712456213n-1731416457019948186035.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 34,
+      "Address": "USA",
+      "username": "Jane123",
+      "password": "123",
+      "avatar": "https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/3/10/photo-3-1710036886336500412043.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "age": 22,
+      "Address": "England",
+      "username": "Alice123",
+      "password": "123",
+      "avatar": "https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/3/10/photo-3-1710036886336500412043.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lee Min Hoo",
+      "age": 24,
+      "Address": "Korea",
+      "username": "minhoo",
+      "password": "123",
+      "avatar": "https://cdnphoto.dantri.com.vn/K21wP8AnRRjMnV2k4EQR_yY_VYY=/thumb_w/1020/2022/09/26/kim-woo-bin-23-1664200116270.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Nguyễn Hồng",
+      "age": 27,
+      "Address": "Viet nam",
+      "username": "Hongxinhdep",
+      "password": "123",
+      "avatar": "https://cdn-i.doisongphapluat.com.vn/resize/th/upload/2024/05/27/snapinstaapp396570043182127907302640334684493519357439901n1080-10392727.jpg"
+    }
+  ],
+  "friends": [
+    { "id": 1, "name": "Mike" },
+    { "id": 2, "name": "Sara" },
+    { "id": 3, "name": "Tom" }
+  ],
+  "events": [
+    { "id": 1, "name": "Party at John's", "date": "2024-12-15" },
+    { "id": 2, "name": "Outdoor picnic", "date": "2024-12-20" }
+  ]
+}

@@ -1,0 +1,124 @@
+/* Định dạng chung cho container của trang đăng nhập */
+.login-container {
+  height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    #ff79c6,
+    #ff58a7
+  ); /* Màu nền hồng dạ quang */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://d3eys52k95jjdh.cloudfront.net/wp-content/uploads/2018/02/tinder-gold.jpg"); /* Thêm ảnh nền */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Định dạng cho nội dung trang đăng nhập */
+.login-content {
+  background-color: #79ebff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Định dạng cho logo hoặc tiêu đề */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Định dạng cho input */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Định dạng cho nút đăng nhập */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff58a7; /* Màu hồng */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #ff1e70; /* Đổi màu khi hover */
+}
+
+/* Định dạng cho liên kết quên mật khẩu */
+.forgot-password {
+  color: #0078d4; /* Màu xanh giống Facebook */
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Định dạng cho phần đăng nhập với tài khoản khác */
+.or-separator {
+  margin: 20px 0;
+  text-align: center;
+  color: #888;
+}
+
+.or-separator span {
+  background-color: #fff;
+  padding: 0 10px;
+  font-size: 0.9rem;
+}
+
+/* Định dạng cho đăng nhập với tài khoản khác */
+.other-login-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.other-login-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #444;
+  text-decoration: none;
+  width: 48%;
+  cursor: pointer;
+}
+
+.other-login-buttons button:hover {
+  background-color: #f1f1f1;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.5rem; /* Kích thước icon */
+}
+.error-message {
+  color: #ff4d4d;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
