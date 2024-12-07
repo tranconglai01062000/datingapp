@@ -1,0 +1,95 @@
+.friendlist-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Chia thành 4 cột */
+  gap: 20px; /* Khoảng cách giữa các thẻ */
+  justify-items: center;
+  padding: 20px;
+  grid-auto-rows: 1fr;
+}
+
+.friend-card {
+  width: 200px;
+  height: 250px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  text-align: center;
+}
+
+.friend-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.friend-info {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.friend-name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.friend-mutual-friends {
+  font-size: 12px;
+  color: #888;
+}
+
+.friend-btn {
+  background-color: #4caf50; /* Màu xanh lá */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.friend-btn:hover {
+  background-color: #45a049;
+}
+.cancel-friend-btn {
+  background-color: #3611d8;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cancel-friend-btn:hover {
+  background-color: #39297e;
+}
+/* Nút Thêm bạn */
+.add-friend-btn {
+  background-color: #3611d8;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-friend-btn:hover {
+  background-color: #39297e;
+}
+
+.no-friends-message {
+  font-size: 18px;
+  text-align: center;
+  color: #888;
+}

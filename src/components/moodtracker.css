@@ -1,0 +1,90 @@
+.mood-tracker {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+}
+
+.mood-options button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.mood-options button:hover {
+  transform: scale(1.2);
+}
+
+.current-mood {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.mood-history {
+  margin-top: 20px;
+}
+
+.mood-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mood-history li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  color: #555;
+}
+
+.mood-history li span {
+  color: #888;
+  font-size: 0.9rem;
+}
+/* Nút xóa cảm xúc */
+.delete-mood-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.delete-mood-btn:hover {
+  color: darkred;
+}
+
+.mood-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mood-history li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mood-history span {
+  font-size: 0.8rem;
+  color: gray;
+}
+.button-minigame {
+  background-color: #4caf50; /* Màu xanh */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-minigame :hover {
+  background-color: #45a049;
+}

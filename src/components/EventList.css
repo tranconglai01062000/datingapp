@@ -1,0 +1,188 @@
+/* Tổng quan */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container chính */
+.eventlist-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Tạo sự kiện mới */
+.create-event input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.create-event button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.create-event button:hover {
+  background-color: #0056b3;
+}
+
+/* Thông báo lỗi */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+/* Danh sách sự kiện */
+.event-list {
+  margin-top: 30px;
+}
+
+.event-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.event-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.no-events {
+  text-align: center;
+  font-size: 1rem;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Nút xóa sự kiện */
+.delete-event-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.delete-event-btn:hover {
+  background-color: #cc0000;
+}
+
+/* Container chứa checkbox và icon */
+.time-option,
+.location-option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Căn trái cho toàn bộ hàng */
+  gap: 10px; /* Khoảng cách giữa các phần tử trong hàng */
+  margin: 5px 0;
+}
+
+/* Cách căn chỉnh icon và checkbox */
+.time-option label,
+.location-option label {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Khoảng cách giữa checkbox, text, và icon */
+}
+
+/* Icon */
+.check-icon,
+.times-icon {
+  font-size: 18px; /* Kích thước icon */
+  margin-left: 0; /* Đặt sát cạnh text */
+}
+
+.check-icon {
+  font-size: 35px;
+  color: green; /* Màu xanh cho icon tích */
+}
+
+.times-icon {
+  font-size: 35px; /* Tăng kích thước icon dấu x */
+  color: red; /* Giữ màu đỏ cho icon */
+}
+
+/* Tùy chỉnh checkbox */
+input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Padding và font chữ các đề xuất */
+.time-option span,
+.location-option span {
+  font-size: 0.95rem;
+  color: #333;
+  padding: 2px 0;
+}
+.button-home {
+  background-color: #4caf50; /* Màu xanh */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button-home:hover {
+  background-color: #45a049;
+}
+.button-mood {
+  background-color: #4caf50; /* Màu xanh */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-mood:hover {
+  background-color: #45a049;
+}

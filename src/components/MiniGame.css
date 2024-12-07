@@ -1,0 +1,33 @@
+.mini-game {
+  text-align: center;
+  margin: 20px;
+  background-size: cover; /* Đảm bảo ảnh phủ đầy khu vực */
+  background-position: center; /* Căn chỉnh ảnh ở giữa */
+  padding: 50px 0;
+  height: 100vh; /* Chiều cao toàn màn hình */
+}
+
+.dice {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.dice-result h3 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+.button-roll {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-roll:hover {
+  background-color: #2980b9;
+}

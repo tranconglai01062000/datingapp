@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Bông",
       "age": 28,
       "Address": "Viet nam",
@@ -10,7 +10,7 @@
       "avatar": "https://images2.thanhnien.vn/528068263637045248/2024/11/12/4346688273993028297050973153543902712456213n-1731416457019948186035.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Jane Smith",
       "age": 34,
       "Address": "USA",
@@ -19,17 +19,17 @@
       "avatar": "https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/3/10/photo-3-1710036886336500412043.jpg"
     },
     {
-      "id": 3,
-      "name": "Alice Johnson",
+      "id": "3",
+      "name": "Lee Min Hoo",
       "age": 22,
       "Address": "England",
       "username": "Alice123",
       "password": "123",
-      "avatar": "https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/3/10/photo-3-1710036886336500412043.jpg"
+      "avatar": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2020/10/21/847233/Lee-Min-Ho-2.jpg"
     },
     {
-      "id": 4,
-      "name": "Lee Min Hoo",
+      "id": "4",
+      "name": "Alice Johnson",
       "age": 24,
       "Address": "Korea",
       "username": "minhoo",
@@ -37,7 +37,7 @@
       "avatar": "https://cdnphoto.dantri.com.vn/K21wP8AnRRjMnV2k4EQR_yY_VYY=/thumb_w/1020/2022/09/26/kim-woo-bin-23-1664200116270.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Nguyễn Hồng",
       "age": 27,
       "Address": "Viet nam",
@@ -46,13 +46,134 @@
       "avatar": "https://cdn-i.doisongphapluat.com.vn/resize/th/upload/2024/05/27/snapinstaapp396570043182127907302640334684493519357439901n1080-10392727.jpg"
     }
   ],
+  "posts": [
+    {
+      "id": "101",
+      "userId": "1",
+      "UserName": "Bông",
+      "image": "https://images2.thanhnien.vn/528068263637045248/2024/11/12/4346688273993028297050973153543902712456213n-1731416457019948186035.jpg",
+      "caption": "Hôm nay trời đẹp quá!"
+    },
+    {
+      "id": "102",
+      "userId": "2",
+      "UserName": "Jane Smith",
+      "image": "https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/3/10/photo-3-1710036886336500412043.jpg",
+      "caption": "Tôi thích buổi sáng nay!"
+    },
+    {
+      "id": "103",
+      "userId": "3",
+      "UserName": "Lee Min Hoo",
+      "image": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2020/10/21/847233/Lee-Min-Ho-2.jpg",
+      "caption": "Beautiful day"
+    },
+    {
+      "id": "104",
+      "userId": "4",
+      "UserName": "Alice Johnson",
+      "image": "https://cdnphoto.dantri.com.vn/K21wP8AnRRjMnV2k4EQR_yY_VYY=/thumb_w/1020/2022/09/26/kim-woo-bin-23-1664200116270.jpg",
+      "caption": "i'm lonely "
+    },
+    {
+      "id": "105",
+      "userId": "5",
+      "UserName": "Nguyễn Hồng",
+      "image": "https://cdn-i.doisongphapluat.com.vn/resize/th/upload/2024/05/27/snapinstaapp396570043182127907302640334684493519357439901n1080-10392727.jpg",
+      "caption": "Tìm người yêu"
+    },
+    {
+      "id": "106",
+      "userId": "6",
+      "UserName": "Châu",
+      "image": "https://media.viez.vn/prod/2023/9/7/large_3_0d0fdedd5c.JPG",
+      "caption": "Dating With me "
+    }
+  ],
   "friends": [
-    { "id": 1, "name": "Mike" },
-    { "id": 2, "name": "Sara" },
-    { "id": 3, "name": "Tom" }
+    {
+      "id": "1",
+      "name": "Nguyễn Hồng",
+      "avatar": "https://cdn-i.doisongphapluat.com.vn/resize/th/upload/2024/05/27/snapinstaapp396570043182127907302640334684493519357439901n1080-10392727.jpg",
+      "mutualFriends": 64,
+      "email": "bong123@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "avatar": "https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/3/10/photo-3-1710036886336500412043.jpg",
+      "mutualFriends": 23,
+      "email": "Jane123@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "avatar": "https://cdnphoto.dantri.com.vn/K21wP8AnRRjMnV2k4EQR_yY_VYY=/thumb_w/1020/2022/09/26/kim-woo-bin-23-1664200116270.jpg",
+      "mutualFriends": 25,
+      "email": "Alice@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Lee Min Hoo",
+      "avatar": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2020/10/21/847233/Lee-Min-Ho-2.jpg",
+      "mutualFriends": 55,
+      "email": "Minhoo@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Long",
+      "avatar": "https://cdn-img.thethao247.vn/upload/thanhtung/2019/08/02/giay-cuag-dragon.jpg",
+      "mutualFriends": 98,
+      "email": "Minhoo@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "Hồng",
+      "avatar": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2020/3/12/790444/My-Nhan-Redvelvet5.jpg",
+      "mutualFriends": 32,
+      "email": "Minhoo@gmail.com"
+    },
+    {
+      "id": "7",
+      "name": "Châu",
+      "avatar": "https://media.viez.vn/prod/2023/9/7/large_3_0d0fdedd5c.JPG",
+      "mutualFriends": 35,
+      "email": "Minhoo@gmail.com"
+    },
+    {
+      "id": "8",
+      "name": "park joon",
+      "avatar": "https://asianwiki.com/images/d/d1/Ji_Chang-Wook-1987-p01.jpeg",
+      "mutualFriends": 15,
+      "email": "Minhoo@gmail.com"
+    },
+    {
+      "id": "f0b8",
+      "email": "Minhoo@gmail.com",
+      "status": "pending"
+    }
   ],
   "events": [
-    { "id": 1, "name": "Party at John's", "date": "2024-12-15" },
-    { "id": 2, "name": "Outdoor picnic", "date": "2024-12-20" }
+    {
+      "id": "1ad0",
+      "title": "âs",
+      "date": "2024-12-26",
+      "time": "13:52",
+      "location": "ádasdasa",
+      "timeOptions": [
+        {
+          "time": "13:50",
+          "selected": true
+        }
+      ],
+      "locationOptions": [
+        {
+          "location": "áda",
+          "selected": true
+        }
+      ],
+      "newTime": "13:52",
+      "newLocation": ""
+    }
   ]
 }
